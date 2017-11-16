@@ -1,2 +1,2 @@
 apt-get install -y nginx
-sh -c 'echo $HOSTNAME > /var/www/html/index.html'
+echo $HOSTNAME | sudo tee -a /var/www/html/index.html
