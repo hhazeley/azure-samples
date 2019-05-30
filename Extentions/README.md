@@ -9,31 +9,5 @@ This folder in this repository contains steps/information that can be used to te
 #### Powershell 
 
 
-- Install [Postman][1] application
-- Get information from Azure Environment
-    - Tenant ID from Azure Active Directory 
-    - Create or get application ID from an application within the tenant that has rights to subscription you plan to manage
-    - Create an application key/secret 
-    - Subscription ID
-- From Postman, import [**Azure - Management Collection**](./Azure_Management.postman_collection.json) template
-![Import Collection](https://i.imgur.com/xmS15W2.png "Import Collection")
-- From Postman, import [**Azure Environment**](Azure.postman_environment.json) template
-![Import Environment](https://i.imgur.com/NlrVozZ.png "Import Environment") 
-+ Update **Postman** - **Azure Environment** with information from Azure Environment
-![Update Environment details](https://i.imgur.com/iSNrbQ3.png "Update Environment details")
+#### CLI
 
-
-
-### Result
-
-[Result 1](https://i.imgur.com/ZHmhNeC.png)
-
-![Result 2](https://i.imgur.com/pgVpZpC.png)
-
-[1]:https://www.getpostman.com/
-
-### Video of Setup
-
-[![YouTube Video](https://img.youtube.com/vi/2bfgeBKRxl4/0.jpg)](http://www.youtube.com/watch?v=2bfgeBKRxl4)
-
-## Done!!
