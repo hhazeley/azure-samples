@@ -10,8 +10,6 @@ configuration InstallConfigureIIS
 
         LocalConfigurationManager
             {
-                ActionAfterReboot    = 'ContinueConfiguration'
-                RebootNodeIfNeeded   = $true
                 ConfigurationMode    = "ApplyAndAutoCorrect"
             }
 
