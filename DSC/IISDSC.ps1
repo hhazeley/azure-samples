@@ -28,7 +28,8 @@ configuration InstallConfigureIIS
             $webpage | Out-File -FilePath C:\inetpub\wwwroot\iisstart.htm -Force
             }
         TestScript = {
-            $using:page -contains $using:title
+            $test = $using:page -contains $using:title
+            return $test
             }
         GetScript = {
             @{'Result' = $using:page -contains $using:title}
